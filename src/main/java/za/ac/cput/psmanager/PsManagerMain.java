@@ -10,5 +10,9 @@ package za.ac.cput.psmanager;
  * @author jodykearns
  */
 public class PsManagerMain {
-    
+    public static void main(String[] args) {
+        
+        new InventoryManager().runInventoryManager();
+        
+    }
 }
